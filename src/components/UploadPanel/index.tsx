@@ -5,7 +5,6 @@ import { options } from "../../../utils/uploaderOptions";
 import SizeInput from "../SizeInput";
 
 const UploadPanel = () => {
-  const [error, setError] = useState<string>("");
   const [imageUrl, setImageUrl] = useState({
     uploadUrl: "",
     originalWidth: "",
@@ -61,9 +60,6 @@ const UploadPanel = () => {
             setSize={setSize}
           />
         </div>
-        {Boolean(error) && (
-          <p className="underline text-black font-bold">{error}</p>
-        )}
       </form>
       {imageUrl.uploadUrl && size.width && size.height && (
         <div className="mx-auto my-8 max-w-lg flex flex-col gap-4">

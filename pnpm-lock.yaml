@@ -5,7 +5,6 @@ specifiers:
   '@types/react-dom': ^18.0.10
   '@vitejs/plugin-react-swc': ^3.0.0
   autoprefixer: ^10.4.13
-  just-throttle: 4.2.0
   postcss: ^8.4.21
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -16,7 +15,6 @@ specifiers:
   vite: ^4.1.0
 
 dependencies:
-  just-throttle: 4.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-uploader: 3.7.1_react@18.2.0
@@ -661,10 +659,6 @@ packages:
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: false
-
-  /just-throttle/4.2.0:
-    resolution: {integrity: sha512-/iAZv1953JcExpvsywaPKjSzfTiCLqeguUTE6+VmK15mOcwxBx7/FHrVvS4WEErMR03TRazH8kcBSHqMagYIYg==}
     dev: false
 
   /lilconfig/2.0.6:
